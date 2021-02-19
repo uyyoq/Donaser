@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
+import Link from "next/link";
 
 const Form = () => {
   const [showPassword, setShowPassword] = useState(false);
@@ -48,14 +49,25 @@ const Form = () => {
               }
             })}
           />
-          <i><img onClick={togglePasswordVisiblity}
-            className="text-gray-600 absolute w-5 h-auto cursor-pointer right-8 bottom-20 lg:bottom-16 md:bottom-60 md:pb-0 lg:pb-2 pb-10 md:right-56"
-            src={showPassword ? "/login/visibility-on.svg" : "/login/visibility.svg"} /></i>
+          <div>
+            <i><img onClick={togglePasswordVisiblity}
+              className="text-gray-600 w-5 h-auto cursor-pointer absolute right-10 bottom-5 lg:bottom-16 md:bottom-36 md:pb-2 lg:pb-1 pb-10 md:right-56"
+              src={showPassword ? "/login/visibility-on.svg" : "/login/visibility.svg"} /></i>
+          </div>
+
           {errors.password && <p id="error" className="text-red-500 mt-1 ml-8 md:ml-56 text-xs">{errors.password.message}</p>}
         </div>
 
-        <button className="bg-gray-900 hover:bg-gray-800 text-white mb-4 py-1 mx-8 md:mx-56 mt-8 font-semibold focus:outline-none text-center"
-          type="button" onClick={handleSubmit(onSubmit)}>LOG IN</button>
+        <Link href="/mainMenu">
+          <a
+            className="bg-black hover:bg-gray-900 text-white mb-4 py-1 mx-8 md:mx-56 mt-8 font-semibold focus:outline-none text-center"
+            type="button"
+            onClick={handleSubmit(onSubmit)}>
+            LOG IN
+          </a>
+
+        </Link>
+
       </form>
 
       <style jsx>
