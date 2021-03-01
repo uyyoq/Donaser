@@ -3,7 +3,7 @@ import Card from '../Components/Card/card'
 
 const MainMenu = () => {
   return (
-    <div className="mt-8 mb-14">
+    <div className="mt-5 mb-14">
       <Card
         profile="/card/profile-ex-1.svg"
         dots="/card/more.svg"

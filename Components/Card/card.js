@@ -2,15 +2,15 @@
 
 const Card = (props) => {
   return (
-    <div className="border-b mb-6 border-gray-300">
+    <div className="border-b mb-6 w-11/12 mx-auto">
 
       <div className="flex justify-between">
-        <div className="flex mx-5 md:mx-7 mb-3 items-center ">
+        <div className="flex mb-3 items-center ">
           <img className="mr-3 h-6 md:h-10 w-auto" src={props.profile} ></img>
           <p className="text-xs md:text-base">{props.username}</p>
         </div>
         <div>
-          <img className="h-5 w-auto mr-6 mb-4 md:h-6 md:mr-8 md:mt-1" src={props.dots}></img>
+          <img className="h-5 w-auto mb-4 md:h-6 md:mt-1" src={props.dots}></img>
         </div>
 
       </div>
@@ -28,7 +28,7 @@ const Card = (props) => {
         </div>
 
 
-        <div className="flex m-5 justify-around ">
+        <div className="flex justify-between mb-3 ">
           <div className="flex items-center">
             <img className="h-4 md:h-8 w-auto" src="/card/flash.svg"></img>
             <p className="ml-1 text-xs md:text-base">{props.donationMoney}</p>

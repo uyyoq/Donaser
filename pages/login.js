@@ -4,9 +4,10 @@ import Form from '../Components/Form/form'
 const login = () => {
   return (
     <div className="flex flex-col mt-20 justify-center">
-      <div className="flex justify-center cursor-default">
+      <div className="flex justify-center">
         <img className="h-full w-16 md:w-20 lg:w-16" src="/front/donaser_logo.svg" />
       </div>
+      
       <div className="mt-24">
         <p className="text-center mb-6 text-xs md:text-sm text-gray-700">Masuk Dengan</p>
         <div className="flex justify-center">

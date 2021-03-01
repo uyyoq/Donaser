@@ -13,7 +13,7 @@
    viewBox="0 0 11.25 11.25"
    height="30"
    sodipodi:docname="flash.svg"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -23,15 +23,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1366"
-     inkscape:window-height="676"
+     inkscape:window-width="1330"
+     inkscape:window-height="740"
      id="namedview6"
      showgrid="false"
-     inkscape:zoom="5.6996303"
-     inkscape:cx="11.450904"
-     inkscape:cy="-0.64023364"
-     inkscape:window-x="0"
-     inkscape:window-y="27"
+     inkscape:zoom="11.399261"
+     inkscape:cx="-7.9724764"
+     inkscape:cy="10.407038"
+     inkscape:window-x="36"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg4" />
   <metadata
@@ -42,15 +42,15 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <defs
      id="defs8" />
   <path
-     style="fill:#333333;fill-opacity:1;stroke-width:0.05744794"
+     style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.04144018"
      id="path2"
-     d="M 9.0220264,4.3630756 A 0.22979175,0.22979175 0 0 0 8.8221078,4.2465695 H 5.8118359 L 6.3165156,0.39049144 A 0.23111305,0.23111305 0 0 0 5.8929521,0.24032408 L 2.2321399,6.6539272 a 0.22979175,0.22979175 0 0 0 0.195725,0.3501454 H 5.3931552 L 4.9932028,10.865953 a 0.23117049,0.23117049 0 0 0 0.4257466,0.14138 L 9.0192689,4.5944189 a 0.22979175,0.22979175 0 0 0 0.00275,-0.2313433 z"
+     d="M 8.0754441,4.7147074 A 0.16576074,0.16576074 0 0 0 7.9312304,4.6306661 H 5.7597676 L 6.1238193,1.849076 A 0.16671384,0.16671384 0 0 0 5.8182808,1.7407524 L 3.1775467,6.3672178 A 0.16576074,0.16576074 0 0 0 3.3187325,6.6197959 H 5.4577513 L 5.1692449,9.4055705 a 0.1667553,0.1667553 0 0 0 0.3071133,0.101987 l 2.5970979,-4.625968 a 0.16576074,0.16576074 0 0 0 0.00201,-0.16688 z"
      inkscape:connector-curvature="0" />
 </svg>
