@@ -2,7 +2,7 @@
 
 const Card = (props) => {
   return (
-    <div className="border-b mb-6 w-11/12 mx-auto">
+    <div className="border-b mb-6 w-11/12 mx-auto font-Open-sans">
 
       <div className="flex justify-between">
         <div className="flex mb-3 items-center ">

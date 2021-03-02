@@ -1,7 +1,7 @@
 
 const Donate = (props) => {
   return (
-    <div className="flex flex-col mx-auto justify-center container my-5 px-5">
+    <div className="flex flex-col mx-auto justify-center container my-5 px-5 font-Open-sans">
       <p className="text-2xl text-gray-500 ">Today</p>
 
       <div className="text-xs m-6">

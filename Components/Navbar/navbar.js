@@ -11,9 +11,9 @@ const Navbar = (props) => {
         <Link href="/donateStory">
           <img className="md:h-10 md:w-auto" src={props.love} />
         </Link>
-        <div>
+        <Link href="/profileMenu">
           <img className="md:h-10 md:w-auto" src={props.user} />
-        </div>
+        </Link>
       </div>
     </div>
   )

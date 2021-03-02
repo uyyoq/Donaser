@@ -2,7 +2,7 @@
 const Frame = (props) => {
   return (
     <div>
-      <div>
+      <div className="font-Open-sans">
         <img src={props.content}></img>
         <div className="float-right mx-5 mb-5">
           <img className="h-12 w-auto" src={props.love}></img>
