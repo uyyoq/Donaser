@@ -1,11 +1,24 @@
+import React, { useState } from "react";
+
 
 const Frame = (props) => {
+  const [changeLove, setChangeLove] = useState(false);
+
+  const handleChangeLove = () => {
+    setChangeLove(changeLove ? false : true);
+  };
   return (
     <div>
       <div className="font-Open-sans">
-        <img src={props.content}></img>
-        <div className="float-right mx-5 mb-5">
-          <img className="h-12 w-auto" src={props.love}></img>
+        <div className="flex relative justify-end">
+          <img className="" src={props.content} />
+          <div className="absolute mt-40 mx-8 md:mt-36">
+            <img
+              onClick={handleChangeLove}
+              className="h-14 md:h-16 w-auto z-10"
+              src={changeLove ? "/frame-menu/heart-inline.svg" : "/frame-menu/love-fullfilled.svg"}
+             />
+          </div>
         </div>
         <p className="m-4 mt-12 text-lg">{props.title}</p>
         <div className="flex justify-center mt-8">
@@ -22,11 +35,11 @@ const Frame = (props) => {
 
         <div className="flex mt-1">
           <div className="self-center">
-          <img src="/frame-menu/stick.svg" />
+            <img src="/frame-menu/stick.svg" />
           </div>
           <div className="self-end text-gray-600">
-          <p className="mb-6">{props.money}</p>
-          <p>{props.ads}</p>
+            <p className="mb-6">{props.money}</p>
+            <p>{props.ads}</p>
           </div>
         </div>
 
