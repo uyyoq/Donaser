@@ -15,9 +15,9 @@ const Frame = (props) => {
           <div className="absolute mt-40 mx-8 md:mt-36">
             <img
               onClick={handleChangeLove}
-              className="h-14 md:h-16 w-auto z-10"
+              className="h-14 w-auto z-10"
               src={changeLove ? "/frame-menu/heart-inline.svg" : "/frame-menu/love-fullfilled.svg"}
-             />
+            />
           </div>
         </div>
         <p className="m-4 mt-12 text-lg">{props.title}</p>
@@ -44,6 +44,19 @@ const Frame = (props) => {
         </div>
 
       </div>
+      <style jsx>
+        {
+          `
+           .shadoww {
+            box-shadow: 0px 24px 39px -4px rgba(0,0,0,0.75);
+            -webkit-box-shadow: 0px 24px 39px -4px rgba(0,0,0,0.75);
+            -moz-box-shadow: 0px 24px 39px -4px rgba(0,0,0,0.75);
+           }
+          `
+        }
+
+      </style>
+
     </div>
   )
 }
